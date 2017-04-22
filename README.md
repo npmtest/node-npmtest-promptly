@@ -1,6 +1,6 @@
 # npmtest-promptly
 
-#### basic test coverage for  promptly (v2.2.0)  [![npm package](https://img.shields.io/npm/v/npmtest-promptly.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-promptly) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-promptly.svg)](https://travis-ci.org/npmtest/node-npmtest-promptly)
+#### basic test coverage for  [promptly (v2.2.0)](https://github.com/IndigoUnited/node-promptly#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-promptly.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-promptly) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-promptly.svg)](https://travis-ci.org/npmtest/node-npmtest-promptly)
 
 #### Simple command line prompting utility
 
@@ -35,28 +35,29 @@
 ```json
 
 {
-    "name": "promptly",
-    "version": "2.2.0",
-    "description": "Simple command line prompting utility",
-    "main": "index.js",
+    "author": {
+        "name": "IndigoUnited",
+        "url": "http://indigounited.com"
+    },
+    "bugs": {
+        "url": "http://github.com/IndigoUnited/node-promptly/issues"
+    },
     "dependencies": {
         "read": "^1.0.4"
     },
+    "description": "Simple command line prompting utility",
     "devDependencies": {
         "async": "^2.0.0",
         "expect.js": "^0.3.1",
         "mocha": "^3.0.2"
     },
-    "scripts": {
-        "test": "mocha --bail"
+    "directories": {},
+    "dist": {
+        "shasum": "2a13fa063688a2a5983b161fff0108a07d26fc74",
+        "tarball": "https://registry.npmjs.org/promptly/-/promptly-2.2.0.tgz"
     },
-    "repository": {
-        "type": "git",
-        "url": "git://github.com/IndigoUnited/node-promptly"
-    },
-    "bugs": {
-        "url": "http://github.com/IndigoUnited/node-promptly/issues"
-    },
+    "gitHead": "30057f243e7a6932f28f8f4d84e2f090c8ba5706",
+    "homepage": "https://github.com/IndigoUnited/node-promptly#readme",
     "keywords": [
         "prompt",
         "choose",
@@ -65,8 +66,27 @@
         "command",
         "line"
     ],
-    "author": "IndigoUnited <hello@indigounited.com> (http://indigounited.com)",
-    "license": "MIT"
+    "license": "MIT",
+    "main": "index.js",
+    "maintainers": [
+        {
+            "name": "indigounited"
+        },
+        {
+            "name": "satazor"
+        }
+    ],
+    "name": "promptly",
+    "optionalDependencies": {},
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/IndigoUnited/node-promptly.git"
+    },
+    "scripts": {
+        "test": "mocha --bail"
+    },
+    "version": "2.2.0",
+    "bin": {}
 }
 ```
 
